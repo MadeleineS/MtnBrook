@@ -1,0 +1,66 @@
+body {font-family:Verdana, Arial, sans-serif;
+      background-color: #fafafa;
+}
+
+#wrapper { background-color: #efefef; 
+           color: #195e86;
+           width: 80%;
+		   margin: 0 auto;
+		   padding:0;
+           min-width: 750px;
+		   max-width:960px;
+}
+/* Formatting for top banner*/
+#header { margin: 0 auto;
+		width:960px; 
+		height:503px; 
+		background-image: url(pict/MBfalls-summer.jpg); 
+		background-repeat: no-repeat; 
+		padding:0;
+}
+#logo{  position:relative;
+		left: 618px;
+		top:66px;
+}
+nav {	position:relative;
+		left: 0px;
+		top:300px;
+		margin:0;
+		padding:0;
+}
+nav ul{	margin:0;
+		padding:0;
+}
+
+nav li {/*width:150px; */
+		list-style-type :none; 
+		text-align: center;
+		display:inline-block;
+		color:white;
+        cursor: pointer;
+		padding: 5px 10px 5px;
+		margin: 0;
+		font-size: 120%;
+        background-color: hsla(0, 0%, 70%, 0.3);
+}
+/*formatting for home page content*/
+#main {	margin:0 auto;
+		width:85%;
+		padding:40px 0;
+}
+
+#picts{
+	margin: 30px auto;
+	text-align:center;	
+}
+
+#picts img{
+	margin:5px;
+}
+
+/*footer*/
+#footer{font-size:80%; 
+		text-align:center;
+}
+
+
